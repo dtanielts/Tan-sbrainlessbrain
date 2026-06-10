@@ -4,10 +4,10 @@ export const INITIAL_POSTS: BlogPost[] = [
   
   {
     "id": "custom-1781101984959",
-    "title_vi": "Test",
-    "title_en": "test",
-    "content_vi": "ồ hay nhỉ, test",
-    "content_en": "test",
+    "title_vi": "Bài đầu tiên",
+    "title_en": "first",
+    "content_vi": "Đùuu hay vl t đã mò vừa vibecode vừa học code để đẩy được project đầu tiên này. Blog này của Tân để luyện insight nhá",
+    "content_en": "Daaamn, that’s so freaking cool. I figured it out by both vibe-coding and learning to code, and managed to ship this first project. This is Tan’s blog for practicing insights",
     "date": "2026-06-10",
     "mood_vi": "test",
     "mood_en": "test",
