@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { BlogPost } from '../types';
-import { ArrowLeft, Calendar, AlertCircle } from 'lucide-react';
+import { ArrowLeft, Calendar } from 'lucide-react';
 
 interface PostDetailProps {
   post: BlogPost;
@@ -99,23 +99,6 @@ export default function PostDetail({ post, language, onBack }: PostDetailProps) 
           className="space-y-1"
           dangerouslySetInnerHTML={{ __html: formatContentToHtml(content) }}
         />
-
-        {/* If custom post guide */}
-        {post.isCustom && (
-          <div className="bg-neutral-50 border border-neutral-200/60 p-4 font-mono text-xs text-neutral-500 mt-6 flex gap-2.5 items-start">
-            <AlertCircle className="w-4.5 h-4.5 text-black flex-shrink-0 mt-0.5" />
-            <div>
-              <p className="font-semibold text-black uppercase tracking-wider mb-1">
-                {language === 'vi' ? 'LƯU Ý CÁ NHÂN' : 'LOCAL PERSISTENCE NOTE'}
-              </p>
-              <p>
-                {language === 'vi' 
-                  ? 'Bài này được bạn viết và đang lưu tại trình duyệt này. Nhấn nút "Chỉ Tân làm được" ở góc dưới để lấy tệp JSON xuất bản vĩnh viễn!'
-                  : 'This post is locally saved in this browser. Click "Only Tan can do" in the footer to export JSON content globally!'}
-              </p>
-            </div>
-          </div>
-        )}
       </div>
     </motion.article>
   );
