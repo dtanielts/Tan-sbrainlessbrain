@@ -1,0 +1,6 @@
+{
+  "name": "Tan's brainless brain",
+  "description": "A minimal, typography-focused blog for chaotic thoughts and daily learnings in English and Vietnamese.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
