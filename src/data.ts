@@ -2,7 +2,6 @@ import { BlogPost } from './types';
 
 export const INITIAL_POSTS: BlogPost[] = [
   
-  [
   {
     "id": "custom-1781127091613",
     "title_vi": "[WC2026SERIES] VAR: phạm vi hẹp hơn, nhưng tác động rộng hơn",
